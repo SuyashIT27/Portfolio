@@ -183,6 +183,90 @@ span {
   width: 200px;
   height: 200px;
 }
+
+/*Contact css*/
+.contact-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.input-box{
+  margin: 10px 0px;
+  
+}
+form  input
+{
+ margin: 10px 0px;
+  padding: 10px 15px;
+  border-radius: 0.7rem;
+  outline: none;
+  border: 1px solid black;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form form .btn-1{
+  width: auto;
+  margin: 10px 0px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0;
+  background-color: black;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+.footer .social a {
+  font-size: 24px;
+  color: white;
+  border: 2px solid orangered;
+  width: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 8px;
+  box-shadow: insert 0 0 10px orangered;
+  transition: 0.3s ease;
+}
+.footer .social a :hover {
+  transform: scale(1.2) translateY(-10px);
+  color: orangered;
+  border: 2px solid orangered;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li a {
+  color: white;
+  border-bottom: 3px solid orangered;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
 @media (max-width: 800px) {
   .home-content {
     display: flex;
@@ -241,7 +325,8 @@ span {
     text-align: center;
     margin-bottom: 3em;
   }
-  .contact-form form .input-box {
+  .input-box {
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -257,57 +342,4 @@ span {
     margin: 1rem 0;
     resize: none;
   }
-}
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  padding: 40px 0;
-  background-color: black;
-}
-.footer .social {
-  text-align: center;
-  padding-bottom: 25px;
-  color: white;
-}
-.footer .social a {
-  font-size: 24px;
-  color: white;
-  border: 2px solid orangered;
-  width: 40px;
-  line-height: 38px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50px;
-  margin: 0 8px;
-  box-shadow: insert 0 0 10px orangered;
-  transition: 0.3s ease;
-}
-.footer .social a;
-:hover {
-  transform: scale(1.2) translateY(-10px);
-  color: orangered;
-  border: 2px solid orangered;
-}
-.footer ul {
-  margin-top: 0;
-  padding: 0;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 0;
-  text-align: center;
-}
-.footer ul li a {
-  color: white;
-  border-bottom: 3px solid orangered;
-}
-.footer ul li {
-  display: inline-block;
-  padding: 0 15px;
-}
-.footer .copyright {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 12px;
-  color: white;
 }
